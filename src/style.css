@@ -1,0 +1,17 @@
+:root {
+    --colour-1: #002400;
+    --colour-2: #8b4104;
+    --colour-3: #f7b578;
+    --colour-4: #7b904b;
+    --colour-5: #9cd96a;
+    --heading-font: 'aloevera'; 
+    --text-font: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'aloevera';
+    src: url(./fonts/aloevera/aloevera.ttf) format('truetype');
+    src: url(./fonts/aloevera/aloevera.woff) format('woff');
+    src: url(./fonts/aloevera/aloevera.woff2) format('woff2');
+}
+
