@@ -1,9 +1,12 @@
 :root {
-    --colour-1: #002400;
-    --colour-2: #8b4104;
-    --colour-3: #f7b578;
-    --colour-4: #7b904b;
-    --colour-5: #9cd96a;
+    --colour-1: #261C03;
+    --colour-2: #706033;
+    --colour-3: #95824B;
+    --colour-4: #B9A362;
+    --colour-5: #1A3215;
+    --colour-6: #4B6130;
+    --colour-7: #7B904B;
+    --colour-8: #9cd96a;
     --heading-font: 'aloevera'; 
     --text-font: 'Montserrat', sans-serif;
 }
@@ -14,4 +17,11 @@
     src: url(./fonts/aloevera/aloevera.woff) format('woff');
     src: url(./fonts/aloevera/aloevera.woff2) format('woff2');
 }
+
+body {
+    background: linear-gradient(120deg, #7b904b 0%, #9cd96a 100%);
+}
+
+/* Navigation bar */
+
 
