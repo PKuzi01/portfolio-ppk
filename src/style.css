@@ -9,6 +9,8 @@
     --colour-8: #9cd96a;
     --heading-font: 'aloevera'; 
     --text-font: 'Montserrat', sans-serif;
+    --section-margin: 100px auto;
+    --text-shadow: 2px 2px;
 }
 
 @font-face {
@@ -19,9 +21,60 @@
 }
 
 body {
-    background: linear-gradient(120deg, #7b904b 0%, #9cd96a 100%);
+    background: radial-gradient(circle at -1% 57.5%, #aee97f 0%, #b9ec7a 90%);
 }
 
+
+
 /* Navigation bar */
+
+.navbar-brand {
+    font-family: var(--heading-font);
+    color: var(--colour-1);
+    text-shadow: var(--text-shadow) var(--colour-6);
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    color: var(--colour-1);
+    border: solid 3px var(--colour-1);
+}
+
+.navbar-toggler-icon {
+    background-image: url(./media/Icon.svg);
+}
+
+.nav-link {
+    font-family: var(--text-font);
+    font-weight: 800;
+    color: var(--colour-2);
+}
+
+.nav-link:hover {
+    color: var(--colour-1);
+}
+
+/* Hero */
+.hero {
+    margin: var(--section-margin);
+}
+
+.hero-div {
+    line-height: 15px;
+}
+
+.hero-div > h1 {
+    font-family: var(--heading-font);
+    color: #1A3215;
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 60px;
+}
+
+.hero-div > h2 {
+    font-family: var(--heading-font);
+    color: #1A3215;
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 40px;
+}
 
 
