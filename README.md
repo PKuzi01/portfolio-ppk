@@ -18,7 +18,6 @@ Found [here](https://github.com/PKuzi01/sc-responsive-practice-portfolio).
 * Vars: for styling constants
 * @media: for responsive work
 * Resource list:
-    * [Color palette](https://coolors.co/palette/002400-8b4104-f7b578-7b904b-9cd96a)
     * [Aloevera by salamahtype](https://www.fontspace.com/aloevera-font-f77419)
     * [Montserrat by Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly](https://fonts.google.com/specimen/Montserrat?category=Sans+Serif)
 
