@@ -143,4 +143,8 @@ body {
     .hero-div > h1 {
         font-size: 40px;
     }
+
+    .about-div > h2 {
+        font-size: 25px;
+    }
 }
