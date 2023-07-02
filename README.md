@@ -35,6 +35,9 @@ I've been putting this off for a long while, but I think I'm biting the bullet. 
 #### 27 June 2023
 Before you judge me about the time gap, I was busy with another project, and the had an existetial crisis about this one. The important part is that I got started. For today, I added in what I think will be the HTML for the entire thing. I plan on tackling a bit of the CSS tomorrow, so that if/when I add the JS, I can see what it is that I'd like to add behaviours to, but I don't think I'll be using JavaScript for this project. I'm glad that I got started though. Truly. It feels good to shake off the anxiety by doing the actual work.
 
+#### 1 July 2023
+I started on the CSS. And got suuuuuper stuck. I had to start all over. I needed to figure out how the cascade was flowing, whether my documents were the problem. I still don't know what it was, but I know using specific properties was part of the problem, and I needed to be careful to replicate my desired result. I had to read the Bootstrap documentation, and search on StackOverflow too. I haven't used Bootstrap in so long, I had forgotten how manipulate my way through it. But we're slowly making a comeback. Several hours of debugging but we're back at it.
+
 ### <ins>Overall</ins>
 * Rating: /10
 * Note to self: 
