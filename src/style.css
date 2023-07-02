@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-toggler-icon {
-    background-image: url(./media/Icon.svg);
+    background-image: url(./media/toggle-icon.svg);
 }
 
 .nav-link {
@@ -71,11 +71,56 @@ body {
 
 .hero-div > h2 {
     font-family: var(--heading-font);
-    color: #1A3215;
+    color: var(--colour-5);
     text-shadow: var(--text-shadow) var(--colour-3);
     font-size: 40px;
 }
 
+.about {
+    margin: var(--section-margin);
+}
+
+.about-div > h2{
+    font-family: var(--heading-font);
+    color: var(--colour-5);
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 40px;
+}
+
+.accordion-item {
+    background-color: var(--colour-4);
+    color: var(--colour-1);
+    border: var(--colour-6) 2px solid;
+    font-family: var(--text-font);
+}
+
+
+.accordion-button {
+    background-color: var(--colour-3);
+}
+
+.accordion-button.collapsed {
+    color: var(--colour-1);
+}
+
+.accordion-button:focus {
+    border-color: var(--colour-1);
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--colour-3);
+    color: var(--colour-1);
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(media/accordion-icon.svg)
+}
+
+.accordion-button::after {
+    background-image: url(media/accordion-icon.svg);
+}
 
 
 @media (max-width: 550px) {
