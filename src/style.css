@@ -27,7 +27,6 @@ body {
 
 
 /* Navigation bar */
-
 .navbar-brand {
     font-family: var(--heading-font);
     color: var(--colour-1);
@@ -78,3 +77,25 @@ body {
 }
 
 
+
+@media (max-width: 550px) {
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    .hero {
+        margin: 50px auto;
+    }
+
+    .hero-div {
+        line-height: 5px;
+    }
+
+    .hero-div > h2 {
+        font-size: 25px;
+    }
+
+    .hero-div > h1 {
+        font-size: 40px;
+    }
+}
