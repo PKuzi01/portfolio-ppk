@@ -24,7 +24,10 @@ body {
     background: radial-gradient(circle at -1% 57.5%, #aee97f 0%, #b9ec7a 90%);
 }
 
-
+footer {
+    color: var(--colour-2);
+    font-family: var(--text-font);
+}
 
 /* Navigation bar */
 .navbar-brand {
@@ -132,7 +135,6 @@ body {
     font-size: 40px;
 }
 
-
 .contact-div > h3, .contact > h3 {
     font-family: var(--heading-font);
     color: var(--colour-5);
@@ -157,9 +159,16 @@ body {
     font-family: var(--text-font);
 }
 
-
+.footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 @media (max-width: 550px) {
+    footer {
+        font-size: 10px;
+    }
+
     .container {
         padding-left: 30px;
         padding-right: 30px
@@ -190,7 +199,7 @@ body {
     }
 
     .contact {
-        margin-top: 50px;
+        margin: 50px auto 25px auto;
     }
     
     .contact > h2 {
@@ -203,5 +212,9 @@ body {
 
     .contact-div > ul > li > a {
         font-size: 12px;
+    }
+
+    .footer {
+        margin: 15px;
     }
 }
