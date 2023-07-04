@@ -38,6 +38,9 @@ Before you judge me about the time gap, I was busy with another project, and the
 #### 1 July 2023
 I started on the CSS. And got suuuuuper stuck. I had to start all over. I needed to figure out how the cascade was flowing, whether my documents were the problem. I still don't know what it was, but I know using specific properties was part of the problem, and I needed to be careful to replicate my desired result. I had to read the Bootstrap documentation, and search on StackOverflow too. I haven't used Bootstrap in so long, I had forgotten how manipulate my way through it. But we're slowly making a comeback. Several hours of debugging but we're back at it.
 
+#### 4 July 2023
+I worked on this on Sunday as well, and I tackled the accordion. A lot of exposure to SVG and figuring out the Bootstrap styling. I think it took 5 hours to carefully see the stack work and I have to say, I'm very happy I took that time. I still have to figure out how to keep the first entry in the accordion closed instead of collapsed, but I made it look really cool. Also I love how the colour palette is playing out on this website! I love it so so so much, it means so much that I spent the time picking out the colours. Wonderful. Today, I worked on the contact and footer sections, because I'm partially scared of starting with the portfolio section. But to curb that fear, I'm gonna plan out which projects I want on there, the copy for each of the project's descriptions, and then finding good pictures to show them, that's if I use images. I might turn them into links so that I don't los ethe visual evidence. Hopefully, that eases my anxiety about it, then the styling become a lot easier. Also, I enjoy doingthe responsive work a lot, because when I open up the webiste on my phone, the translation is so seamless. I love getting the practice in. Good day's work.
+
 ### <ins>Overall</ins>
 * Rating: /10
 * Note to self: 
