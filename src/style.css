@@ -160,6 +160,11 @@ body {
 
 
 @media (max-width: 550px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
     .navbar-brand {
         font-size: 25px;
     }
@@ -182,5 +187,21 @@ body {
 
     .about-div > h2 {
         font-size: 25px;
+    }
+
+    .contact {
+        margin-top: 50px;
+    }
+    
+    .contact > h2 {
+        font-size: 25px;
+    }
+    
+    .contact-div > h3, .contact > h3 {
+        font-size: 18px;
+    }
+
+    .contact-div > ul > li > a {
+        font-size: 12px;
     }
 }
