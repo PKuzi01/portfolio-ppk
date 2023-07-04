@@ -94,7 +94,6 @@ body {
     font-family: var(--text-font);
 }
 
-
 .accordion-button {
     background-color: var(--colour-3);
 }
@@ -121,6 +120,43 @@ body {
 .accordion-button::after {
     background-image: url(media/accordion-icon.svg);
 }
+
+.contact {
+    margin: var(--section-margin);
+}
+
+.contact > h2 {
+    font-family: var(--heading-font);
+    color: var(--colour-5);
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 40px;
+}
+
+
+.contact-div > h3, .contact > h3 {
+    font-family: var(--heading-font);
+    color: var(--colour-5);
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 30px;
+}
+
+.contact-div > ul > li {
+    list-style: none;
+}
+
+.contact-div > ul > li > a {
+    text-decoration: none;
+    color: var(--colour-1);
+    font-family: var(--text-font);
+    font-size: 20px;
+}
+
+.contact-div > ul > li > a:hover {
+    text-decoration: underline;
+    color: var(--colour-1);
+    font-family: var(--text-font);
+}
+
 
 
 @media (max-width: 550px) {
