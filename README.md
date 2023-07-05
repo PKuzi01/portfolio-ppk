@@ -41,6 +41,9 @@ I started on the CSS. And got suuuuuper stuck. I had to start all over. I needed
 #### 4 July 2023
 I worked on this on Sunday as well, and I tackled the accordion. A lot of exposure to SVG and figuring out the Bootstrap styling. I think it took 5 hours to carefully see the stack work and I have to say, I'm very happy I took that time. I still have to figure out how to keep the first entry in the accordion closed instead of collapsed, but I made it look really cool. Also I love how the colour palette is playing out on this website! I love it so so so much, it means so much that I spent the time picking out the colours. Wonderful. Today, I worked on the contact and footer sections, because I'm partially scared of starting with the portfolio section. But to curb that fear, I'm gonna plan out which projects I want on there, the copy for each of the project's descriptions, and then finding good pictures to show them, that's if I use images. I might turn them into links so that I don't los ethe visual evidence. Hopefully, that eases my anxiety about it, then the styling become a lot easier. Also, I enjoy doingthe responsive work a lot, because when I open up the webiste on my phone, the translation is so seamless. I love getting the practice in. Good day's work.
 
+#### 5 July 2023
+Okay, I got over the anxiety. I think I've decided on a way to link the project for my portfolio. I have to run through the webpage a few times, both on my laptop and on my phone. Then I have to get a few people to look through it and see how it works out. I should be done with it at the end of the week, and from there, I'm focussing on adding projects to the portfolio itself. I'm really happy at how it turned out. And I really love the colour palette.
+
 ### <ins>Overall</ins>
 * Rating: /10
 * Note to self: 
