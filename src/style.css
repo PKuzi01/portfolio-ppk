@@ -131,6 +131,13 @@ footer {
     font-size: 40px;
 }
 
+.portfolio-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 30px auto;
+}
+
 .portfolio-div > div > h3 {
     font-family: var(--heading-font);
     color: var(--colour-5);
@@ -235,6 +242,20 @@ footer {
 
     .about-div > h2 {
         font-size: 25px;
+    }
+
+    .portfolio > h2 {
+        font-size: 25px;
+    }
+
+    .portfolio-div {
+        grid-template-columns: 1fr;
+        gap: 0px;
+        margin: 15px auto;
+    }
+
+    .portfolio-div > div > h3 {
+        font-size: 18px;
     }
 
     .contact {
