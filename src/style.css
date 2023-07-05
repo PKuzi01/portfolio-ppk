@@ -117,11 +117,50 @@ footer {
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url(media/accordion-icon.svg)
+    background-image: url(./media/accordion-icon.svg)
 }
 
 .accordion-button::after {
-    background-image: url(media/accordion-icon.svg);
+    background-image: url(./media/accordion-icon.svg);
+}
+
+.portfolio > h2 {
+    font-family: var(--heading-font);
+    color: var(--colour-5);
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 40px;
+}
+
+.portfolio-div > div > h3 {
+    font-family: var(--heading-font);
+    color: var(--colour-5);
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 30px;
+}
+
+.portfolio-div > div > p {
+    color: var(--colour-1);
+    font-family: var(--text-font);
+}
+
+.portfolio-div > div > a {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 10px;
+    font-family: var(--text-font);
+    text-align: center;
+    text-decoration: none;
+    color: var(--colour-4);
+    background: var(--colour-6);
+    border: var(--colour-6) 2px solid;
+    border-radius: 10px 10px;
+    box-shadow: 3px 3px 5px var(--colour-3);
+    transition: all 150ms ease-in-out;
+}
+
+.portfolio-div > div > a:hover {
+    color: var(--colour-6);
+    background-color: var(--colour-4);
 }
 
 .contact {
