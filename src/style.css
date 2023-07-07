@@ -29,6 +29,48 @@ footer {
     font-family: var(--text-font);
 }
 
+/* All the section margins */
+.hero, .about, .portfolio, .contact {
+    margin: var(--section-margin);
+}
+
+/* All the h2's */
+.hero-div > h2, .about-div > h2, .portfolio > h2, .contact > h2 {
+    font-family: var(--heading-font);
+    color: var(--colour-5);
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 40px;
+}
+
+/* All the h3's */
+.portfolio-div > div > h3, .contact-div > h3 {
+    font-family: var(--heading-font);
+    color: var(--colour-5);
+    text-shadow: var(--text-shadow) var(--colour-3);
+    font-size: 30px;
+}
+
+/* All the a:links */
+.portfolio-div > div > a, .backToTop > a {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 10px;
+    font-family: var(--text-font);
+    text-align: center;
+    text-decoration: none;
+    color: var(--colour-4);
+    background: var(--colour-6);
+    border: var(--colour-6) 2px solid;
+    border-radius: 10px 10px;
+    box-shadow: 3px 3px 5px var(--colour-3);
+    transition: all 150ms ease-in-out;
+}
+
+.portfolio-div > div > a:hover, .backToTop > a:hover {
+    color: var(--colour-6);
+    background-color: var(--colour-4);
+}
+
 /* Navigation bar */
 .navbar-brand {
     font-family: var(--heading-font);
@@ -57,10 +99,6 @@ footer {
 }
 
 /* Hero */
-.hero {
-    margin: var(--section-margin);
-}
-
 .hero-div {
     line-height: 15px;
 }
@@ -72,25 +110,7 @@ footer {
     font-size: 60px;
 }
 
-.hero-div > h2 {
-    font-family: var(--heading-font);
-    color: var(--colour-5);
-    text-shadow: var(--text-shadow) var(--colour-3);
-    font-size: 40px;
-}
-
 /* About section */
-.about {
-    margin: var(--section-margin);
-}
-
-.about-div > h2{
-    font-family: var(--heading-font);
-    color: var(--colour-5);
-    text-shadow: var(--text-shadow) var(--colour-3);
-    font-size: 40px;
-}
-
 .accordion-item {
     background-color: var(--colour-4);
     color: var(--colour-1);
@@ -126,13 +146,6 @@ footer {
 }
 
 /* Portfolio Section */
-.portfolio > h2 {
-    font-family: var(--heading-font);
-    color: var(--colour-5);
-    text-shadow: var(--text-shadow) var(--colour-3);
-    font-size: 40px;
-}
-
 .portfolio-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -140,58 +153,12 @@ footer {
     margin: 30px auto;
 }
 
-.portfolio-div > div > h3 {
-    font-family: var(--heading-font);
-    color: var(--colour-5);
-    text-shadow: var(--text-shadow) var(--colour-3);
-    font-size: 30px;
-}
-
 .portfolio-div > div > p {
     color: var(--colour-1);
     font-family: var(--text-font);
 }
 
-.portfolio-div > div > a {
-    display: block;
-    margin: 30px auto;
-    padding: 10px 10px;
-    font-family: var(--text-font);
-    text-align: center;
-    text-decoration: none;
-    color: var(--colour-4);
-    background: var(--colour-6);
-    border: var(--colour-6) 2px solid;
-    border-radius: 10px 10px;
-    box-shadow: 3px 3px 5px var(--colour-3);
-    transition: all 150ms ease-in-out;
-}
-
-.portfolio-div > div > a:hover {
-    color: var(--colour-6);
-    background-color: var(--colour-4);
-}
-
 /* Contact section */
-
-.contact {
-    margin: var(--section-margin);
-}
-
-.contact > h2 {
-    font-family: var(--heading-font);
-    color: var(--colour-5);
-    text-shadow: var(--text-shadow) var(--colour-3);
-    font-size: 40px;
-}
-
-.contact-div > h3 {
-    font-family: var(--heading-font);
-    color: var(--colour-5);
-    text-shadow: var(--text-shadow) var(--colour-3);
-    font-size: 30px;
-}
-
 .contact-div > ul > li {
     list-style: none;
 }
@@ -214,26 +181,6 @@ footer {
     margin-top: 40px;
 }
 
-.backToTop > a {
-    display: block;
-    margin: 30px auto;
-    padding: 10px 10px;
-    font-family: var(--text-font);
-    text-align: center;
-    text-decoration: none;
-    color: var(--colour-4);
-    background: var(--colour-6);
-    border: var(--colour-6) 2px solid;
-    border-radius: 10px 10px;
-    box-shadow: 3px 3px 5px var(--colour-3);
-    transition: all 150ms ease-in-out;
-}
-
-.backToTop > a:hover {
-    color: var(--colour-6);
-    background-color: var(--colour-4);
-}
-
 /* Footer Section */
 .footer {
     text-align: center;
@@ -246,13 +193,19 @@ footer {
         font-size: 10px;
     }
 
+    /* All the h2's */
+    .navbar-brand, .hero-div > h2, .about-div > h2, .portfolio > h2, .contact > h2 {
+        font-size: 25px;
+    }
+
+    /* All the h3's */
+    .portfolio-div > div > h3, .contact-div > h3 {
+        font-size: 18px;
+    }
+
     .container {
         padding-left: 30px;
         padding-right: 30px
-    }
-
-    .navbar-brand {
-        font-size: 25px;
     }
 
     .hero {
@@ -263,20 +216,8 @@ footer {
         line-height: 5px;
     }
 
-    .hero-div > h2 {
-        font-size: 25px;
-    }
-
     .hero-div > h1 {
         font-size: 40px;
-    }
-
-    .about-div > h2 {
-        font-size: 25px;
-    }
-
-    .portfolio > h2 {
-        font-size: 25px;
     }
 
     .portfolio-div {
@@ -285,20 +226,8 @@ footer {
         margin: 15px auto;
     }
 
-    .portfolio-div > div > h3 {
-        font-size: 18px;
-    }
-
     .contact {
         margin: 50px auto 25px auto;
-    }
-    
-    .contact > h2 {
-        font-size: 25px;
-    }
-    
-    .contact-div > h3, .contact > h3 {
-        font-size: 18px;
     }
 
     .contact-div > ul > li > a {
