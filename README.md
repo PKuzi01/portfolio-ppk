@@ -24,9 +24,11 @@ Found [here](https://github.com/PKuzi01/sc-responsive-practice-portfolio).
 #### JS
 * Behavioural functionality (buttons, burger menu, animations, scroll bars, etc)
 
-#### Frameworks
+#### Frameworks and Tools
 * FontAwesome
 * Bootstrap
+* Coolors
+* Visual Studio Code
 
 ### <ins>Project Entries</ins>
 #### 14 June 2023
@@ -44,6 +46,9 @@ I worked on this on Sunday as well, and I tackled the accordion. A lot of exposu
 #### 5 July 2023
 Okay, I got over the anxiety. I think I've decided on a way to link the project for my portfolio. I have to run through the webpage a few times, both on my laptop and on my phone. Then I have to get a few people to look through it and see how it works out. I should be done with it at the end of the week, and from there, I'm focussing on adding projects to the portfolio itself. I'm really happy at how it turned out. And I really love the colour palette. Th next part is to work on making the code cleaner and easier to read, especially the CSS file. A lot of the code is repeated, so I need find a way around that. Otherwise, a good day's work.
 
+#### 7 July 2023
+I've completed my first ever portfolio! I did some minor fixes, and tried to reduce the repeated code in the stylesheet, added some stuff, like a back to top button, and finally completed the navbar (i honestly forgot about it until I tested in on my phone). I like how it came together, I'm content. Now it's just to build new projects to add, and then this time next year, I'm thinking about a new portfolio, because by then, I should have a new arsenal of skills to make an even better one! Good work, well done.
+
 ### <ins>Overall</ins>
-* Rating: /10
-* Note to self: 
+* Rating: 8/10
+* Note to self: _Be patient with yourself. Slowly but surely does the trick. If you're curious, halt the process to find out; you never know if the curiosity will pay off. Otherwise, I'm proud of you. Keep going._
