@@ -79,6 +79,7 @@ footer {
     font-size: 40px;
 }
 
+/* About section */
 .about {
     margin: var(--section-margin);
 }
@@ -124,6 +125,7 @@ footer {
     background-image: url(./media/accordion-icon.svg);
 }
 
+/* Portfolio Section */
 .portfolio > h2 {
     font-family: var(--heading-font);
     color: var(--colour-5);
@@ -170,6 +172,8 @@ footer {
     background-color: var(--colour-4);
 }
 
+/* Contact section */
+
 .contact {
     margin: var(--section-margin);
 }
@@ -181,7 +185,7 @@ footer {
     font-size: 40px;
 }
 
-.contact-div > h3, .contact > h3 {
+.contact-div > h3 {
     font-family: var(--heading-font);
     color: var(--colour-5);
     text-shadow: var(--text-shadow) var(--colour-3);
@@ -205,11 +209,38 @@ footer {
     font-family: var(--text-font);
 }
 
+.backToTop {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.backToTop > a {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 10px;
+    font-family: var(--text-font);
+    text-align: center;
+    text-decoration: none;
+    color: var(--colour-4);
+    background: var(--colour-6);
+    border: var(--colour-6) 2px solid;
+    border-radius: 10px 10px;
+    box-shadow: 3px 3px 5px var(--colour-3);
+    transition: all 150ms ease-in-out;
+}
+
+.backToTop > a:hover {
+    color: var(--colour-6);
+    background-color: var(--colour-4);
+}
+
+/* Footer Section */
 .footer {
     text-align: center;
     margin-bottom: 30px;
 }
 
+/* Responsive Media Queries */
 @media (max-width: 550px) {
     footer {
         font-size: 10px;
