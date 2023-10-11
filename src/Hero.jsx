@@ -11,8 +11,6 @@ function Hero() {
             </h2>
             <h1>Philisizwe Kuzwayo</h1>
             <h2>
-                You can call me Phila (Pee-la).
-                <br />
                 Nice to meet you.
             </h2>
         </div>
