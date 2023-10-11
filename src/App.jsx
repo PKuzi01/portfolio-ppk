@@ -1,10 +1,15 @@
 import React from 'react';
 import Hero from "./Hero";
+import About from "./About";
 
 
 function App() {
   return (
-    <Hero />
+    <div>
+      <Hero />
+      <About />
+    </div>
+
   )
 }
 
