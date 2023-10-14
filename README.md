@@ -1,7 +1,7 @@
 ## Welcome to my portfolio.
 ### Built by me, Philisizwe Kuzwayo. 💚
 
-This is what it says, a portfoilio. 
+This is what it says, a portfolio. 
 Its job is to do well in exhibiting all of my work.
 It is also my biggest and dearest project.
 This is built using React, because it's the foundation to what I want my tech stack to be centralised on.
