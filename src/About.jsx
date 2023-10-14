@@ -1,13 +1,14 @@
 import React from "react";
+import "./About.css"
 
 function About() {
     return (
         <div className="about">
-            <h2>Here's a little about myself?</h2>
+            <h2>Here's a little about myself</h2>
             <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                       <h2 className="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           <strong>You have a nickname?</strong>
                         </button>
                       </h2>

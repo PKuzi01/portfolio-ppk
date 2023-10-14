@@ -1,0 +1,74 @@
+:root {
+    --colour-1: #f2f9f1;
+    --colour-2:  #ddeedf;
+    --colour-3: #b6cdbd;
+    --colour-4: #5c715e;
+    --colour-5: #3b523d;
+    --colour-6: #283f2a;
+    --heading-font: 'Pixelify Sans', sans-serif;
+    --beeg-heading-font-size: 50px;
+    --second-heading-font-size: 35px;
+    --text-font-1: 'Bai Jamjuree', sans-serif;
+    --text-font-2: 'Space Mono', monospace;
+    --text-font-size: 20px;
+    --section-margin: 30px auto;
+    --section-padding: 30px 30px;
+    --text-shadow: 2px 2px 3px;
+    --box-shadow: 3px 3px 12px;
+}
+
+.about {
+    margin: var(--section-margin);
+    padding: var(--section-padding);
+    background-color: #fbfbfb;
+    border-radius: 10px 10px;
+    box-shadow: var(--box-shadow)  var(--colour-4);
+}
+
+.about > h2 {
+    font-family: var(--heading-font);
+    font-size: var(--second-heading-font-size);
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--colour-6);
+    text-shadow: var(--colour-4) var(--text-shadow);
+}
+
+.about > .accordion {
+    border-radius: 10px 10px;
+    box-shadow: var(--box-shadow)  var(--colour-4);
+}
+
+.about > .accordion > .accordion-item {
+    background-color: var(--colour-2);
+    font-family: var(--text-font-2);
+    color: var(--colour-5);
+}
+
+.about > .accordion > .accordion-item > .accordion-header > .accordion-button {
+    background-color: var(--colour-3);
+}
+
+.about > .accordion > .accordion-item > .accordion-header > .accordion-button:focus {
+    border-color: var(--colour-2);
+    box-shadow: none;
+    color: var(--colour-6);
+}
+
+.about > .accordion > .accordion-item > .accordion-header > .accordion-button.collapsed {
+    color: var(--colour-6);
+}
+
+.about > .accordion > .accordion-item > .accordion-header > .accordion-button:not(.collapsed) {
+    background-color: var(--colour-3);
+    color: var(--colour-6);
+    box-shadow: none;
+}
+
+.about > .accordion > .accordion-item > .accordion-header > .accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+.about > .accordion > .accordion-item > .accordion-header > .accordion-button::after {
+    background-image: none;
+}
