@@ -1,0 +1,77 @@
+:root {
+    --colour-1: #f2f9f1;
+    --colour-2:  #ddeedf;
+    --colour-3: #b6cdbd;
+    --colour-4: #5c715e;
+    --colour-5: #3b523d;
+    --colour-6: #283f2a;
+    --heading-font: 'Pixelify Sans', sans-serif;
+    --beeg-heading-font-size: 50px;
+    --second-heading-font-size: 35px;
+    --text-font-1: 'Bai Jamjuree', sans-serif;
+    --text-font-2: 'Space Mono', monospace;
+    --text-font-size: 20px;
+    --section-margin: 30px auto;
+    --section-padding: 30px 30px;
+    --text-shadow: 2px 2px 3px;
+    --box-shadow: 3px 3px 12px;
+}
+
+.contact {
+    margin: var(--section-margin);
+    padding: var(--section-padding);
+    background-color: #fbfbfb;
+    border-radius: 10px 10px;
+    box-shadow: var(--box-shadow)  var(--colour-4);
+}
+
+.contact > h2 {
+    font-family: var(--heading-font);
+    font-size: var(--second-heading-font-size);
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--colour-6);
+    text-shadow: var(--colour-4) var(--text-shadow);
+}
+
+.contact > ul {
+    text-align: center;
+}
+
+.contact > ul > li {
+    list-style: none;
+    margin: 25px auto;
+}
+
+.contact > ul > li > a {
+    text-decoration: none;
+    font-family: var(--text-font-1);
+    font-size: var(--text-font-size);
+    color: var(--colour-5);
+    text-shadow: var(--text-shadow) var(--colour-3);
+}
+
+.contact > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.contact > .backToTop > a {
+    display: block;
+    margin: auto 180px;
+    padding: 10px;
+    font-family: var(--text-font-1);
+    text-align: center;
+    text-decoration: none;
+    color: var(--colour-2);
+    background: var(--colour-4);
+    border: var(--colour-4) 2px solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px var(--colour-3);
+    transition: all 150ms ease-in-out;
+
+}
+
+.contact > .backToTop > a:hover {
+    color: var(--colour-4);
+    background: var(--colour-2);
+}
