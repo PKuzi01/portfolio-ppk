@@ -27,7 +27,7 @@
 }
 
 .hero > h2 {
-    font-family: var(--text-font-2);
+    font-family: var(--heading-font);
     font-size: var(--second-heading-font-size);
     color: var(--colour-5);
 }
