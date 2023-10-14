@@ -9,9 +9,7 @@
     --beeg-heading-font-size: 50px;
     --second-heading-font-size: 30px;
     --text-font-1: 'Bai Jamjuree', sans-serif;
-    --text-font-2: 'Courier Prime', monospace;
-    --text-font-3: 'Handjet', sans-serif;
-    --text-font-4: 'Space Mono', monospace;
+    --text-font-2: 'Space Mono', monospace;
     --text-font-size: 20px;
     --section-margin: 30px auto;
     --section-padding: 30px 30px;
@@ -29,7 +27,7 @@
 }
 
 .hero > h2 {
-    font-family: var(--text-font-4);
+    font-family: var(--text-font-2);
     font-size: var(--second-heading-font-size);
     color: var(--colour-5);
 }
