@@ -35,7 +35,9 @@
 }
 
 .portfolio > .row {
+    display: flex;
     flex-wrap: nowrap !important;
+    justify-content: space-between;
 }
 
 
@@ -78,4 +80,15 @@
 .portfolio > .row > .folioSection > a:hover {
     color: var(--colour-4);
     background: var(--colour-2);
+}
+
+@media (max-width: 400px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .portfolio > .row > .col-6 {
+        width: none !important;
+        margin-bottom: 15px;
+    }
 }

@@ -55,7 +55,7 @@
     text-decoration: underline;
 }
 
-.contact > .backToTop > a {
+/* .contact > .backToTop > a {
     display: block;
     margin: auto 180px;
     padding: 10px;
@@ -74,4 +74,4 @@
 .contact > .backToTop > a:hover {
     color: var(--colour-4);
     background: var(--colour-2);
-}
+} */
