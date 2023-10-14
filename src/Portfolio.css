@@ -1,0 +1,81 @@
+:root {
+    --colour-1: #f2f9f1;
+    --colour-2:  #ddeedf;
+    --colour-3: #b6cdbd;
+    --colour-4: #5c715e;
+    --colour-5: #3b523d;
+    --colour-6: #283f2a;
+    --heading-font: 'Pixelify Sans', sans-serif;
+    --beeg-heading-font-size: 50px;
+    --second-heading-font-size: 35px;
+    --text-font-1: 'Bai Jamjuree', sans-serif;
+    --text-font-2: 'Space Mono', monospace;
+    --text-font-size: 20px;
+    --section-margin: 30px auto;
+    --section-padding: 30px 30px;
+    --text-shadow: 2px 2px 3px;
+    --box-shadow: 3px 3px 12px;
+}
+
+.portfolio {
+    margin: var(--section-margin);
+    padding: var(--section-padding);
+    background-color: #fbfbfb;
+    border-radius: 10px 10px;
+    box-shadow: var(--box-shadow)  var(--colour-4);
+}
+
+.portfolio > h2 {
+    font-family: var(--heading-font);
+    font-size: var(--second-heading-font-size);
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--colour-6);
+    text-shadow: var(--colour-4) var(--text-shadow);
+}
+
+.portfolio > .row {
+    flex-wrap: nowrap !important;
+}
+
+
+.portfolio > .row > .folioSection {
+    margin: 3px;
+    padding: 15px;
+    background-color: var(--colour-2);
+    border-radius: 10px 10px;
+    box-shadow: var(--box-shadow)  var(--colour-4);
+}
+
+.portfolio > .row > .folioSection > h3 {
+    font-family: var(--text-font-1);
+    font-weight: 700;
+    color: var(--colour-6);
+    text-decoration: underline;
+}
+
+.portfolio > .row > .folioSection > p {
+    font-family: var(--text-font-2);
+    color: var(--colour-5);
+}
+
+.portfolio > .row > .folioSection > a {
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    font-family: var(--text-font-1);
+    text-align: center;
+    text-decoration: none;
+    color: var(--colour-2);
+    background: var(--colour-4);
+    border: var(--colour-4) 2px solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px var(--colour-3);
+    transition: all 150ms ease-in-out;
+
+}
+
+.portfolio > .row > .folioSection > a:hover {
+    color: var(--colour-4);
+    background: var(--colour-2);
+}
