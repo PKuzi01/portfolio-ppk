@@ -1,0 +1,40 @@
+:root {
+    --colour-1: #f2f9f1;
+    --colour-2:  #ddeedf;
+    --colour-3: #b6cdbd;
+    --colour-4: #5c715e;
+    --colour-5: #3b523d;
+    --colour-6: #283f2a;
+    --heading-font: 'Pixelify Sans', sans-serif;
+    --beeg-heading-font-size: 50px;
+    --second-heading-font-size: 35px;
+    --text-font-1: 'Bai Jamjuree', sans-serif;
+    --text-font-2: 'Space Mono', monospace;
+    --text-font-size: 20px;
+    --section-margin: 30px auto;
+    --section-padding: 30px 30px;
+    --text-shadow: 2px 2px;
+    --box-shadow: 3px 3px 12px;
+}
+
+.hero {
+    text-align: center;
+    margin: var(--section-margin);
+    padding: var(--section-padding);
+    background-color: #fbfbfb;
+    border-radius: 10px 10px;
+    box-shadow: var(--box-shadow)  var(--colour-4);
+}
+
+.hero > h2 {
+    font-family: var(--heading-font);
+    font-size: var(--second-heading-font-size);
+    color: var(--colour-5);
+}
+
+.hero > h1 {
+    font-family: var(--heading-font);
+    font-size: var(--beeg-heading-font-size);
+    color: var(--colour-6);
+    text-shadow: var(--text-shadow) var(--colour-3);
+}
