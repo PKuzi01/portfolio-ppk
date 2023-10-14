@@ -11,9 +11,9 @@ function Contact() {
                 <li><a href="mailto:ilaphi@outlook.com" target="_blank"><strong>Email</strong></a></li>
             </ul>
             <h2>Hope to hear from you soon.</h2>
-            <div class="backToTop">
+            {/* <div class="backToTop">
                 <a href="#hero">Back to top</a>
-            </div>
+            </div> */}
         </div>
     )
 }
