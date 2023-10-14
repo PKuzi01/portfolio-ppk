@@ -88,7 +88,7 @@
     }
 
     .portfolio > .row > .col-6 {
-        width: none !important;
+        width: auto;
         margin-bottom: 15px;
     }
 }
